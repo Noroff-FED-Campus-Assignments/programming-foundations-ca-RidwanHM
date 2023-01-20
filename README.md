@@ -13,11 +13,15 @@ npm install
 npm run dev
 ```
 
-## _REPLACE_ Object
-
-// Use this file to write your report.
+## Train Object
 
 This object has the following properties:
+
+- Brand (String), the brand of the train.
+- Seats (Number), amount of seats in the train.
+- On (Boolean), is the train on?
+- Line (Array), list of lines the train drive.
+- Ignition (Function), the ignition that starts the vehicle.
 
 ## Minimum acceptance Criteria
 
